@@ -1,0 +1,1 @@
+print("Hello everyone my name is tanawut sawarak, And of course, I really love this subject because I've loved this since I was a child. When I was little, I loved playing on the computer. I loved writing words. It was so much fun, I really want everyone to try learning about this because it's more fun and interesting than you think")
