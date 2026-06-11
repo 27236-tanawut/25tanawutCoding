@@ -1,0 +1,6 @@
+a = 10
+b = 2.5
+c = input("ใส่ข้อความมาเลยไอหนู: ")
+print(type(a))
+print(type(b))
+print(type(c))
