@@ -1,0 +1,12 @@
+score1 = float(input("ใส่คะแนนวิชาภาษาไทย "))
+score2 = float(input("ใส่คะแนนวิชาภาษาอังกฤษ "))
+score3 = float(input("ใส่คะแนนวิชาวิคณิตศาสตร์ "))
+
+total_score = (score1 + score2 + score3) / 3
+print (float(total_score))
+if total_score >=80:
+   print ("ดีเยี่ยม")
+elif 60 <= total_score <= 79:
+   print ("ผ่าน")
+else:
+   print ("ไปตายห่าส้ะไอโง่")
