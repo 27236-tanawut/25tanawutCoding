@@ -1,0 +1,20 @@
+print("โปรแกรมคำนวณคะแนนสอบ\n")
+science = float(input("กรุณากรอกคะแนนวิชาวิทยาศาสตร์: "))
+math = float(input("กรุณากรอกคะแนนวิชาคณิตศาสตร์: "))
+english = float(input("กรุณากรอกคะแนนวิชาภาษาอังกฤษ: ")) 
+total_score = science + math + english
+average_score = total_score / 3
+print("\nคะแนนรวมของคุณคือ: ", total_score)
+print("คะแนนเฉลี่ยของคุณคือ: ", average_score)
+if average_score >= 80:
+    print("คุณได้เกรด A")
+elif average_score >= 70:
+    print("คุณได้เกรด B")
+elif average_score >= 60:
+    print("คุณได้เกรด C")
+elif average_score >= 50:
+    print("คุณได้เกรด D")
+else:
+    print("คุณได้เกรด F")
+
+print("จัดทำโดย: ธนาวุฒิ สาวะรักษ์ 22-06-69")
