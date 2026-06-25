@@ -1,0 +1,17 @@
+print("คำนวณ BMI และแปลผลสุขภาพ\n")
+
+height = float(input("กรุณาใส่ความสูงของคุณ (เมตร): "))
+weight = float(input("กรุณาใส่น้ำหนักของคุณ (กิโลกรัม): "))
+
+bmi = weight / (height * height)
+
+print(f"\nค่าดัชนีมวลกาย (BMI) ของคุณคือ: {bmi:.2f}")
+if bmi < 18.5:
+    print("คุณอยู่ในเกณฑ์น้ำหนักน้อย (Underweight)")
+elif 18.5 <= bmi < 22.9:
+    print("คุณอยู่ในเกณฑ์น้ำหนักปกติ (Normal weight)")
+elif 23 <= bmi < 24.9:
+    print("คุณอยู่ในเกณฑ์น้ำหนักเกิน (Overweight)")
+else:
+    print("คุณอยู่ในเกณฑ์อ้วน (Obese)")
+
